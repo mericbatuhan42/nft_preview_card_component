@@ -1,0 +1,186 @@
+body {
+  margin: 0%;
+  padding: 0%;
+  background-color: #0C1729;
+  color: white;
+}
+
+#flex-container {
+  width: 70%;
+  padding: 2rem;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  background-color: #15273F;
+  border-radius: 15px;
+  transition: ease all .5s;
+}
+
+#images {
+  position: relative;
+  width: 100%;
+}
+
+#image {
+  width: 100%;
+  border-radius: 15px;
+}
+
+#overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .3s ease;
+  background-color: #008F9D;
+  border-radius: 15px;
+}
+
+#images:hover #overlay {
+  opacity: 0.6;
+}
+
+#icon {
+  color: white;
+  font-size: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+#nft-name {
+  font-family: 'Outfit', sans-serif;
+  font-weight: 600;
+  font-size: 1.8rem;
+}
+
+#nft-name:hover {
+  color: #20F0EE;
+}
+
+#nft-description {
+  margin: 0%;
+  color: #98ACCC;
+  font-family: 'Outfit', sans-serif;
+  font-weight: 300;
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+}
+
+#price-time-container {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  flex-direction: row;
+}
+
+#price-container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: row;
+}
+
+#icon-ethereum {
+  height: 18px;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: 0.5rem;
+}
+
+#time-container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: row;
+}
+
+#icon-clock {
+  height: 18px;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: 0.5rem;
+}
+
+#nft-price {
+  color: #20F0EE;
+  font-family: 'Outfit', sans-serif;
+  font-weight: 600;
+}
+
+#sale-time {
+  color: #98ACCC;
+  font-family: 'Outfit', sans-serif;
+  font-weight: 300;
+}
+
+hr {
+  width: 100%;
+  border-top: 1px solid;
+  background-color: #2E4058;
+  color: #2E4058;
+  border-color: #2E4058;
+}
+
+#creator {
+  display: flex;
+  align-content: center;
+  flex-direction: row;
+  font-family: 'Outfit', sans-serif;
+  font-weight: 300;
+  color: #98ACCC;
+}
+
+#avatar {
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: 1rem;
+  border: 1px solid white;
+  border-radius: 20px;
+  width: 2rem;
+  display: inline-block;
+}
+
+span {
+  color: white;
+}
+
+span:hover {
+  color: #20F0EE;
+}
+
+@media (min-width: 600px) {
+  #flex-container {
+    width: 50%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+}
+
+@media (min-width: 1000px) {
+  #flex-container {
+    width: 30%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+}
+
+@media (min-width: 1400px) {
+  #flex-container {
+    width: 20%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+}
