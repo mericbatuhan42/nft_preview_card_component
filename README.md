@@ -23,8 +23,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: (https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U/hub/nft-preview-card-component-using-flexbox-MkaWmFO-PP)
-- Live Site URL: (https://mericbatuhan42.github.io/nft_preview_card_component/)
+- Solution URL: [Here](https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U/hub/nft-preview-card-component-using-flexbox-MkaWmFO-PP)
+- Live Site URL: [Here](https://mericbatuhan42.github.io/nft_preview_card_component/)
 
 ## My process
 
